@@ -1,0 +1,143 @@
+#dashboard-wrap {
+    height: 1000px;
+}
+#dashboard-table-modules {
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    padding: 10rem;
+}
+.dashboard-item-mc,.dashboard-item-lecturer {
+    background-color: #D0D2D6;
+    height: 100%;
+    padding: 25px 15px 25px 15px;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    background-color: #22404F;
+    padding-left: 20px;
+}
+.view-workload {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.outer-block { 
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+    column-gap: 1em;
+}
+.items { 
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+.list-group {
+    height: calc(100% - 50px);
+    /* max-height: 250px;
+    overflow-y: scroll; */
+    border-radius: 0 0 6px 6px;
+}
+
+#list-group-report {
+    height: calc(100% - 50px);
+    border-radius: 0 0 6px 6px;
+}
+
+.list-group>a:last-child  .list-item {
+    border-radius: 0 0 6px 6px;
+}
+
+.list-group>a:not(:first-child)  .list-item{
+    border-top: 1px solid white
+}
+
+.list-item {
+    min-height: 60px;
+    color: #15343F;
+    background: #D0D2D6;
+    font-size: 1em;
+    font-weight: bold;
+    transition: .4s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-item:hover {
+    color: white;
+    background: #22404F;
+}
+.list-item a{
+    color:inherit
+}
+.list-item a:visited{
+    color:inherit
+}
+#module-info-item {
+    transition: 1s;
+}
+
+
+
+.report-item-wrap p {
+    color: #15343F;
+    text-align: left;
+}
+
+.report-item-wrap:hover .report-item-title {
+    color: white
+}
+
+.report-item-wrap:hover .report-item-desc {
+    color: white
+}
+
+.report-item-title {
+    font-size: 1em;
+}
+
+.report-item-desc {
+    font-size: .6em;
+    font-weight: lighter;
+}
+
+.download-button {
+    background-color: #15343F;
+    color: #ffffff;
+    height: 65%;
+    border: none;
+    border-radius: 3px;
+    font-size: .7em;
+}
+
+#teaching-assignment-title {
+    height: 30%
+}
+
+#teaching-assignment-list {
+    height: 60px;
+    margin: auto;
+    position: relative;
+    top: -7px;
+    padding: 0;
+    width: 70%;
+    text-align: center;
+
+}
+
+.teaching-assignment-list-item {
+
+    color: #15343F;
+    font-size: .8em;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
